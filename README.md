@@ -15,8 +15,6 @@ The report is built using a constellation/star schema and consists of:
 - **Dimension tables**: `DimKraje`, `DimKalendarz`, `DimKalendarz2` (for comparisons), plus a measures table `_Miarki`
 - **Relationships** are one-to-many between dimensions and facts
 
-![Model](screenshots/model.png)
-
 ## 🔗 Data Source
 - Defense, GDP and population data aggregated from public/open sources.  
   *(Replace with your exact sources and links, e.g. World Bank / NATO / SIPRI.)*
@@ -25,8 +23,6 @@ The report is built using a constellation/star schema and consists of:
 1. Download the `NATO_Defense_Spending_2014_2024.pbix` file from the repository.  
 2. Open it in **Power BI Desktop**.  
 3. Use the slicers (Country, Year) and explore KPIs, rankings and comparisons.
-
-![Dashboard](screenshots/dashboard.png)
 
 ---
 
